@@ -1,0 +1,511 @@
+{
+  "onboarding": {
+    "type": "mouse",
+    "device": "mx-master-4",
+    "featureTour": true,
+    "style": "slides",
+    "slides": [
+      {
+        "index": 0,
+        "background": "purple",
+        "title": "ONBOARD_WELCOME_PAGE_DEVICE_NAME_TITLE",
+        "description": "ONBOARD_WELCOME_PAGE_DESCRIPTION_V3",
+        "fadeOutImage": "device_image"
+      },
+      {
+        "index": 1,
+        "slideFor": [
+          "new"
+        ],
+        "imagePanel": {
+          "id": "pointer_speed",
+          "image": "device_image",
+          "animation": {
+            "entry": [
+              {
+                "animationType": "TRANSLATE_Y_30",
+                "animationTimeout": 500
+              },
+              {
+                "animationType": "MOVE_LEFT_MICE",
+                "animationTimeout": 780
+              }
+            ]
+          },
+          "slots": [
+            {
+              "slotId": "mx-master-4-2b042_mouse_settings",
+              "rootName": "WHEEL_BUTTON"
+            }
+          ]
+        },
+        "configurationPanel": {
+          "configurations": [
+            {
+              "title": "ONBOARD_SET_UP_POINTER_SPEED",
+              "description": "ONBOARD_SET_UP_HIGH_RES_POINTER_SPEED_V1",
+              "configurationType": "pointer_speed",
+              "animation": {
+                "entry": {
+                  "animationType": "HORIZONTAL_FROM",
+                  "animationTimeout": 900
+                },
+                "exit": {
+                  "animationType": "HORIZONTAL_FROM"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "index": 2,
+        "slideFor": [
+          "new"
+        ],
+        "imagePanel": {
+          "id": "scroll_wheel_modes",
+          "image": "device_point_scroll_press_image",
+          "profileTab": "pointAndScroll",
+          "slotStyle": "purple",
+          "slotAnimation": {
+            "entry": {
+              "animationType": "FADE_IN"
+            },
+            "exit": {
+              "animationType": "FADE_IN"
+            }
+          },
+          "slots": [
+            {
+              "slotId": "mx-master-4-2b042_mouse_settings",
+              "staticLabel": "ONBOARD_SCROLLWHEEL",
+              "slotDescription": "ONBOARD_SCROLL_WHEEL_MODES_DESCRIPTION_V1",
+              "rootName": "WHEEL_BUTTON",
+              "label": {
+                "x": 1,
+                "y": 0
+              },
+              "marker": {
+                "x": 74.5,
+                "y": 21
+              }
+            },
+            {
+              "slotId": "mx-master-4-2b042_mouse_wheel_settings",
+              "staticLabel": "ONBOARD_MODESHIFT",
+              "slotDescription": "ONBOARD_MODE_SHIFT_DESCRIPTION",
+              "rootName": "TOP_BUTTON",
+              "label": {
+                "x": 1,
+                "y": 0
+              },
+              "marker": {
+                "x": 81,
+                "y": 39.8
+              }
+            }
+          ]
+        },
+        "configurationPanel": {
+          "configurations": [
+            {
+              "title": "ONBOARD_SCROLL_WHEEL_MODES",
+              "configurationType": "scroll_wheel_modes",
+              "animation": {
+                "entry": {
+                  "animationType": "HORIZONTAL_FROM",
+                  "animationTimeout": 300
+                },
+                "exit": {
+                  "animationType": "HORIZONTAL_FROM"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "index": 3,
+        "slideFor": [
+          "legacy",
+          "new"
+        ],
+        "imagePanel": {
+          "id": "gesture",
+          "image": "device_buttons_image",
+          "profileTab": "buttons",
+          "slotStyle": "purple",
+          "indicatorClassType": "easy-switch-container",
+          "indicator": [
+            {
+              "indicatorId": "ripple-hotspot",
+              "image": "ripple-hotspot",
+              "entry": [
+                {
+                  "animationType": "MOVE_UP"
+                },
+                {
+                  "animationType": "HIDE",
+                  "animationTimeout": 1300
+                }
+              ],
+              "marker": {
+                "x": 32.8,
+                "y": 31.9
+              },
+              "styles": {
+                "width": "15%",
+                "height": "15%"
+              }
+            }
+          ],
+          "animation": {
+            "entry": [
+              {
+                "animationType": "ADD_SHADOW",
+                "animationTimeout": 50
+              },
+              {
+                "animationType": "TRANSLATE_Y_30",
+                "animationTimeout": 500
+              },
+              {
+                "animationType": "MOVE_LEFT_MICE",
+                "animationTimeout": 780
+              }
+            ],
+            "exit": [
+              {
+                "animationType": "MOUSE_GIF"
+              }
+            ]
+          },
+          "slots": [
+            {
+              "slotId": "mx-master-4-2b042_c195",
+              "rootName": "THUMB_BUTTON",
+              "animation": {
+                "entry": [
+                  {
+                    "animationType": "FADE_IN",
+                    "animationTimeout": 2000
+                  }
+                ],
+                "exit": {
+                  "animationType": "FADE_IN"
+                }
+              },
+              "label": {
+                "x": 0,
+                "y": 1
+              },
+              "marker": {
+                "x": 39.8,
+                "y": 38.5
+              }
+            }
+          ],
+          "arrowMarks": [
+            {
+              "staticLabel": "down",
+              "marker": {
+                "x": 56,
+                "y": 105
+              },
+              "entry": {
+                "animationType": "FADE_IN",
+                "animationTimeout": 2000
+              }
+            },
+            {
+              "staticLabel": "prev",
+              "marker": {
+                "x": -30,
+                "y": 44
+              },
+              "entry": {
+                "animationType": "FADE_IN",
+                "animationTimeout": 2000
+              }
+            },
+            {
+              "staticLabel": "next",
+              "marker": {
+                "x": 131,
+                "y": 44
+              },
+              "entry": {
+                "animationType": "FADE_IN",
+                "animationTimeout": 2000
+              }
+            },
+            {
+              "staticLabel": "up",
+              "marker": {
+                "x": 56,
+                "y": -15
+              },
+              "entry": {
+                "animationType": "FADE_IN",
+                "animationTimeout": 2000
+              }
+            }
+          ]
+        },
+        "configurationPanel": {
+          "configurations": [
+            {
+              "configurationType": "gesture",
+              "animation": {
+                "entry": {
+                  "animationType": "HORIZONTAL_FROM",
+                  "animationTimeout": 800
+                },
+                "exit": {
+                  "animationType": "HORIZONTAL_FROM"
+                }
+              },
+              "title": "ONBOARD_GESTURES_TITLE",
+              "description": "ONBOARD_GESTURES_DESCRIPTION"
+            }
+          ]
+        }
+      },
+      {
+        "index": 4,
+        "slideFor": [
+          "legacy",
+          "new"
+        ],
+        "imagePanel": {
+          "image": "actions-zone-static",
+          "animation": {
+            "entry": [
+              {
+                "animationType": "NO_SHADOW"
+              },
+              {
+                "animationType": "MOUSE_GIF"
+              },
+              {
+                "animationType": "TRANSLATE_Y_30"
+              },
+              {
+                "animationType": "MOVE_LEFT_MICE"
+              },
+              {
+                "animationType": "FADE_IN"
+              }
+            ],
+            "exit": [
+              {
+                "animationType": "MOVE_LEFT"
+              },
+              {
+                "animationType": "ADD_SHADOW"
+              }
+            ]
+          },
+          "animateImagePanel": {
+            "images": [
+              {
+                "image": "actions-zone_ani1",
+                "timeOut": 5200
+              },
+              {
+                "image": "actions-zone_ani2",
+                "timeOut": 6000
+              },
+              {
+                "image": "actions-zone_ani3",
+                "timeOut": 6000
+              },
+              {
+                "image": "actions-zone_ani4",
+                "timeOut": 6000
+              }
+            ],
+            "repeat": true
+          }
+        },
+        "configurationPanel": {
+          "configurations": [
+            {
+              "configurationType": "action_zone",
+              "title": "ONBOARD_HAPTIC_SENSE_PANEL_TITLE",
+              "animation": {
+                "entry": [
+                  {
+                    "animationType": "FADE_IN"
+                  },
+                  {
+                    "animationType": "RIGHT"
+                  }
+                ],
+                "exit": [
+                  {
+                    "animationType": "HORIZONTAL_FROM"
+                  },
+                  {
+                    "animationType": "LEFT"
+                  }
+                ]
+              },
+              "configData": [
+                {
+                  "text": "ONBOARD_HAPTIC_SENSE_PANEL_PUSH_RING",
+                  "timeOut": 5200
+                },
+                {
+                  "text": "ONBOARD_HAPTIC_SENSE_PANEL_PUSH_FORCE",
+                  "timeOut": 6000
+                },
+                {
+                  "text": "ONBOARD_HAPTIC_SENSE_PANEL_ACTIONS_RING",
+                  "timeOut": 6000
+                },
+                {
+                  "text": "ONBOARD_HAPTIC_SENSE_PANEL_VIBRATE_NOTIFY",
+                  "timeOut": 6000
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "index": 5,
+        "slideFor": [
+          "legacy",
+          "new"
+        ],
+        "imagePanel": {
+          "id": "haptic_feedback",
+          "image": "device_point_scroll_press_image",
+          "animation": {
+            "entry": [
+              {
+                "animationType": "MOVE_LEFT"
+              },
+              {
+                "animationType": "ADD_SHADOW",
+                "animationTimeout": 50
+              }
+            ],
+            "exit": {
+              "animationType": "MOUSE_GIF"
+            }
+          },
+          "slots": [
+            {
+              "slotId": "mx-master-4-2b042_haptic_settings",
+              "rootName": "HAPTIC_FEEDBACK_INTENSITY"
+            }
+          ]
+        },
+        "configurationPanel": {
+          "configurations": [
+            {
+              "title": "ONBOARD_CUSTOMIZE_HAPTIC_FEEDBACK_INTENSITY_TITLE",
+              "description": "ONBOARD_CUSTOMIZE_HAPTIC_FEEDBACK_INTENSITY_DESCRIPTION",
+              "configurationType": "haptic_feedback",
+              "animation": {
+                "entry": {
+                  "animationType": "FADE_IN",
+                  "animationTimeout": 300
+                },
+                "exit": {
+                  "animationType": "HORIZONTAL_FROM"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "index": 6,
+        "slideFor": [
+          "legacy",
+          "new"
+        ],
+        "hasTemplate": true,
+        "templateName": "ACTION_RING_ONBOARDING",
+        "imagePanelData": {
+          "id": "image_panel",
+          "images": [
+            {
+              "id": "device_buttons_image",
+              "image": "device_buttons_image"
+            },
+            {
+              "id": "action_ring_plugin_image",
+              "timeout": 2000,
+              "images": [
+                {
+                  "image": "action_ring_default",
+                  "icon": "global",
+                  "assignmentList": [
+                    "ONBOARD_ASSIGNMENT_VOLUME",
+                    "ONBOARD_ASSIGNMENT_SCREEN_BRIGHTNESS",
+                    "ONBOARD_ASSIGNMENT_CHAT_GPT",
+                    "ONBOARD_ASSIGNMENT_LOCK_SCREEN",
+                    "ONBOARD_ASSIGNMENT_GOOGLE",
+                    "ONBOARD_ASSIGNMENT_PREVIOUS_TRACK",
+                    "ONBOARD_ASSIGNMENT_PLAY_PAUSE",
+                    "ONBOARD_ASSIGNMENT_NEXT_TRACK"
+                  ]
+                },
+                {
+                  "image": "action_ring_plugin",
+                  "iconImage": "app_icon_ps",
+                  "assignmentList": [
+                    "ONBOARD_ASSIGNMENT_EXPOSURE_VALUE",
+                    "ONBOARD_ASSIGNMENT_VIBRANCE",
+                    "ONBOARD_ASSIGNMENT_HUE_SAT_HUE",
+                    "ONBOARD_ASSIGNMENT_HUE_SATURATION",
+                    "ONBOARD_ASSIGNMENT_BLACK_AND_WHITE",
+                    "ONBOARD_ASSIGNMENT_POSTERIZE",
+                    "ONBOARD_ASSIGNMENT_BRIGHTNESS",
+                    "ONBOARD_ASSIGNMENT_CONTRAST"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "configurationPanel": {
+          "configurations": [
+            {
+              "animation": {
+                "entry": {
+                  "animationType": "FADE_IN",
+                  "animationTimeout": 300
+                },
+                "exit": {
+                  "animationType": "HORIZONTAL_FROM"
+                }
+              },
+              "description": "ONBOARD_ACTION_RING_DESCRIPTION",
+              "isFreeTextLayout": true
+            }
+          ]
+        }
+      },
+      {
+        "index": 7,
+        "action": "OPEN_ACTIONS_RING_PLUGIN_INSTALLATION",
+        "title": "",
+        "description": "",
+        "fadeOutImage": "device_image",
+        "ccSlideInfo": {
+          "endSlideInfo": {
+            "endSlideTitle": "ONBOARD_YOU_ARE_ALL_SET",
+            "endSlideDescription": "ONBOARD_PRESS_THE_NEXT_BUTTON_BELOW_TO_CONTINUE_CUSTOMIZING_THIS_DEVICE",
+            "restartOnboarding": "ONBOARD_RESTART_ONBOARDING"
+          }
+        }
+      }
+    ]
+  }
+}

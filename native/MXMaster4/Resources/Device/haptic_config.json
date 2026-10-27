@@ -1,0 +1,131 @@
+{
+  "is_plugin_event_sources_supported": true,
+  "supported_event_sources": {
+    "actions_ring": {
+      "supported_events": {
+        "hover_on_action": {
+          "waveformId": 4
+        },
+        "slider_endpoint_reached": {
+          "waveformId": 4
+        },
+        "button_action_run": {
+          "waveformId": 1
+        }
+      }
+    },
+    "gestures": {
+      "supported_events": {
+        "desktop_left": {
+          "waveformId": 0
+        },
+        "desktop_right": {
+          "waveformId": 0
+        },
+        "vd_desktop_left": {
+          "waveformId": 0
+        },
+        "vd_desktop_right": {
+          "waveformId": 0
+        },
+        "wn_desktop_left": {
+          "waveformId": 0
+        },
+        "wn_desktop_right": {
+          "waveformId": 0
+        },
+        "osx_mission_control": {
+          "waveformId": 0
+        },
+        "osx_app_expose": {
+          "waveformId": 0
+        },
+        "osx_screen_capture": {
+          "waveformId": 0
+        },
+        "open_chatgpt": {
+          "waveformId": 0
+        },
+        "wn_mission_control": {
+          "waveformId": 0
+        },
+        "wn_mission_control_click": {
+          "waveformId": 0
+        },
+        "wn_app_expose": {
+          "waveformId": 0
+        },
+        "an_app_expose": {
+          "waveformId": 0
+        },
+        "an_mission_control": {
+          "waveformId": 0
+        },
+        "win_screen_capture": {
+          "waveformId": 0
+        },
+        "osx_emoji": {
+          "waveformId": 3
+        },
+        "win_emoji": {
+          "waveformId": 3
+        },
+        "an_right_application": {
+          "waveformId": 3
+        },
+        "an_left_application": {
+          "waveformId": 3
+        },
+        "an_launch_pad": {
+          "waveformId": 0
+        },
+        "an_hide_show_desktop": {
+          "waveformId": 0
+        },
+        "an_start_menu": {
+          "waveformId": 0
+        },
+        "an_switch_application_left": {
+          "waveformId": 3
+        },
+        "an_switch_application_right": {
+          "waveformId": 3
+        },
+        "an_switch_applications": {
+          "waveformId": 3
+        }
+      }
+    },
+    "switch_screens": {
+      "disabled_by_default": true,
+      "supported_events": {
+        "screen_change": {
+          "waveformId": 3
+        }
+      }
+    }
+  },
+  "blacklisted_event_source_names": [
+    "ActionsRing___Default"
+  ],
+  "blacklisted_event_names": [],
+  "blacklisted_events": [],
+  "haptic_waveforms": {
+    "sharp_state_change": 0,
+    "damp_state_change": 1,
+    "sharp_collision": 2,
+    "damp_collision": 3,
+    "subtle_collision": 4,
+    "happy_alert": 5,
+    "angry_alert": 6,
+    "completed": 7,
+    "square": 8,
+    "wave": 9,
+    "firework": 10,
+    "mad": 11,
+    "knock": 12,
+    "jingle": 13,
+    "ringing": 14,
+    "whisper_collision": 27
+  }
+}

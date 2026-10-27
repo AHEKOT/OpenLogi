@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E167DC1ED5DBC8ED03E28F /* ButtonInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAF8F5844914D02938A400 /* ButtonInspector.swift */; };
+		1262EC3DF276D47425C00952 /* Device in Resources */ = {isa = PBXBuildFile; fileRef = 4ABBE8990064580F16E0AA4A /* Device */; };
+		12E2FFBF6D87E29474EF162D /* OpenLogi-Brand-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = ECA70A24BFDF43BFF2C093CA /* OpenLogi-Brand-LICENSE.txt */; };
+		171C1E345129E1863D4F4B2C /* MXMaster4Core in Frameworks */ = {isa = PBXBuildFile; productRef = 32A6A172A974213F2C0A6771 /* MXMaster4Core */; };
+		1DAA951B14CCC1A26B62D7B6 /* mx-master-4-001 in Resources */ = {isa = PBXBuildFile; fileRef = 726BA667C9443B33669D205C /* mx-master-4-001 */; };
+		26A5F6954BD06DC79DCD0786 /* MXMaster4IPC in Frameworks */ = {isa = PBXBuildFile; productRef = 28966E681AE34925AE2982FB /* MXMaster4IPC */; };
+		2BD9E08045890EFCB4011E46 /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C0C81DD9BA95C6AD52F141 /* DiagnosticsView.swift */; };
+		37B05C46284769E0ACC1DDD4 /* MXMaster4HID in Frameworks */ = {isa = PBXBuildFile; productRef = 7A8562E78D63DCC0049B4ECA /* MXMaster4HID */; };
+		5E147A0905DDC0D48C24288A /* MouseDiagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8127D5C7D9417C3D30CB27 /* MouseDiagram.swift */; };
+		6734B52A7A60310F977DCEA4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7508FFD49CA0A5340A71050 /* main.swift */; };
+		685A93A77FC52CF9B1C38DDE /* PointerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900DA9D06D38ADFD907799A2 /* PointerView.swift */; };
+		7645F3CAA8237F0D33DBCA49 /* AgentClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69BA7CB2B1366D6D229C27A /* AgentClient.swift */; };
+		7BA6A5E9C0D654640091B0E9 /* ActionRingEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E35AAA8EE8C7B528D88AFE /* ActionRingEditor.swift */; };
+		7F53DE5DD6BFED9B38C20C0E /* WorkspaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B7DCDDCA795AB5FD48B64 /* WorkspaceTests.swift */; };
+		8A10AE150CF4EDED9385C7D4 /* WorkspaceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCB9B3CE3D0568CF2E76A40 /* WorkspaceState.swift */; };
+		99935554914E904DA9C4A201 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E38C7740422BA277974D41 /* ContentView.swift */; };
+		9AC6F9CF7CCEFF3DEF11567E /* presentation.json in Resources */ = {isa = PBXBuildFile; fileRef = EABDDB2E28ACF7320BB9B62B /* presentation.json */; };
+		9BD3718872D590548372208B /* device-provenance.json in Resources */ = {isa = PBXBuildFile; fileRef = 06EE1166D8FED6679ED12AEE /* device-provenance.json */; };
+		ABA2179A7B098A038BFDBD24 /* Graphics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAD5146CDB5EDF1C821CE26 /* Graphics.xcassets */; };
+		B0A0716C2371541AB06EA2B7 /* MXMaster4Agent.app in Embed Dependencies */ = {isa = PBXBuildFile; fileRef = C904AACF59FE4E4170D65551 /* MXMaster4Agent.app */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BCAA16ACB093BA8E8E9C62F2 /* Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416C39CF1A4DC63DF539DD5E /* Presentation.swift */; };
+		DB41E6B3466752AED50EC6D0 /* MXMaster4Core in Frameworks */ = {isa = PBXBuildFile; productRef = 1C5CFB470348551EB8382184 /* MXMaster4Core */; };
+		E0AC9C92A53DBDBA89581BB4 /* MXMaster4IPC in Frameworks */ = {isa = PBXBuildFile; productRef = C599FD7524648EED6548ECF3 /* MXMaster4IPC */; };
+		E31A2330F526297ADB2B25AC /* MXMaster4IPC in Frameworks */ = {isa = PBXBuildFile; productRef = 91CEF548B92963B9343DAEB5 /* MXMaster4IPC */; };
+		E47B5ED986BE8455F36BE508 /* MXMaster4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105FCCAD5A0EF162E0581E86 /* MXMaster4App.swift */; };
+		F1E206066C91FEFEF559A98E /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03FAB11F5ADB8A0A465D439 /* DeviceView.swift */; };
+		F65B190C33C72534BC9BB70F /* MXMaster4Core in Frameworks */ = {isa = PBXBuildFile; productRef = 8693F6E1E7C0C52AAF0DBAF0 /* MXMaster4Core */; };
+		F9BAB77572D13967A50201B4 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F114672D390FE2BEE084E /* AppModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0055D3A8FB290EBF0D10D866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053894604966A7199707E215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8D3115E3BE72F632FB55CA;
+			remoteInfo = MXMaster4;
+		};
+		DBDE7110A2D40023EDC9D258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053894604966A7199707E215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7766B6E133AD311A68E7DFA;
+			remoteInfo = MXMaster4Agent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2AFA72A7051D81ABCFC676E6 /* Embed Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				B0A0716C2371541AB06EA2B7 /* MXMaster4Agent.app in Embed Dependencies */,
+			);
+			name = "Embed Dependencies";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06EE1166D8FED6679ED12AEE /* device-provenance.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "device-provenance.json"; sourceTree = "<group>"; };
+		105FCCAD5A0EF162E0581E86 /* MXMaster4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXMaster4App.swift; sourceTree = "<group>"; };
+		19E35AAA8EE8C7B528D88AFE /* ActionRingEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRingEditor.swift; sourceTree = "<group>"; };
+		1DCB9B3CE3D0568CF2E76A40 /* WorkspaceState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceState.swift; sourceTree = "<group>"; };
+		3E86C79D4EECDADE56A17573 /* MXMaster4 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MXMaster4; path = .; sourceTree = SOURCE_ROOT; };
+		40E38C7740422BA277974D41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		416C39CF1A4DC63DF539DD5E /* Presentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentation.swift; sourceTree = "<group>"; };
+		4ABBE8990064580F16E0AA4A /* Device */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Device; path = Resources/Device; sourceTree = SOURCE_ROOT; };
+		5F7F114672D390FE2BEE084E /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		68B616BCE92851968411585E /* MXMaster4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXMaster4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		726BA667C9443B33669D205C /* mx-master-4-001 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "mx-master-4-001"; path = "../../fixtures/devices/mx-master-4-001"; sourceTree = SOURCE_ROOT; };
+		77C0C81DD9BA95C6AD52F141 /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsView.swift; sourceTree = "<group>"; };
+		8A8127D5C7D9417C3D30CB27 /* MouseDiagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseDiagram.swift; sourceTree = "<group>"; };
+		900DA9D06D38ADFD907799A2 /* PointerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointerView.swift; sourceTree = "<group>"; };
+		B03FAB11F5ADB8A0A465D439 /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		B4EAF8F5844914D02938A400 /* ButtonInspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInspector.swift; sourceTree = "<group>"; };
+		B7508FFD49CA0A5340A71050 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C904AACF59FE4E4170D65551 /* MXMaster4Agent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXMaster4Agent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69BA7CB2B1366D6D229C27A /* AgentClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentClient.swift; sourceTree = "<group>"; };
+		D75B7DCDDCA795AB5FD48B64 /* WorkspaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceTests.swift; sourceTree = "<group>"; };
+		EAAD5146CDB5EDF1C821CE26 /* Graphics.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Graphics.xcassets; sourceTree = "<group>"; };
+		EABDDB2E28ACF7320BB9B62B /* presentation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = presentation.json; sourceTree = "<group>"; };
+		ECA70A24BFDF43BFF2C093CA /* OpenLogi-Brand-LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OpenLogi-Brand-LICENSE.txt"; sourceTree = "<group>"; };
+		F269FD4F05A45F7AC7EB5380 /* MXMaster4AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXMaster4AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BFBF8A11D3DF26FCE9EB4C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB41E6B3466752AED50EC6D0 /* MXMaster4Core in Frameworks */,
+				37B05C46284769E0ACC1DDD4 /* MXMaster4HID in Frameworks */,
+				E0AC9C92A53DBDBA89581BB4 /* MXMaster4IPC in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8006E21AAEA52B934E1AF12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65B190C33C72534BC9BB70F /* MXMaster4Core in Frameworks */,
+				E31A2330F526297ADB2B25AC /* MXMaster4IPC in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A2828E9D8495AE63D7D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171C1E345129E1863D4F4B2C /* MXMaster4Core in Frameworks */,
+				26A5F6954BD06DC79DCD0786 /* MXMaster4IPC in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32AC5C76C0FB8EBCF5084430 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4ABBE8990064580F16E0AA4A /* Device */,
+				06EE1166D8FED6679ED12AEE /* device-provenance.json */,
+				EAAD5146CDB5EDF1C821CE26 /* Graphics.xcassets */,
+				ECA70A24BFDF43BFF2C093CA /* OpenLogi-Brand-LICENSE.txt */,
+				EABDDB2E28ACF7320BB9B62B /* presentation.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3A4D6C744FD205493E7EB2DE /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3E86C79D4EECDADE56A17573 /* MXMaster4 */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		645E645BCD10BDBF2CECC9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B616BCE92851968411585E /* MXMaster4.app */,
+				C904AACF59FE4E4170D65551 /* MXMaster4Agent.app */,
+				F269FD4F05A45F7AC7EB5380 /* MXMaster4AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71BF44A046A5A47ED50FC150 /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				B7508FFD49CA0A5340A71050 /* main.swift */,
+			);
+			path = Agent;
+			sourceTree = "<group>";
+		};
+		71F82B0443C8076666528A29 = {
+			isa = PBXGroup;
+			children = (
+				71BF44A046A5A47ED50FC150 /* Agent */,
+				F678EBC9755F4DB1D213B961 /* App */,
+				FFACA9B1E806BC90C435DDF9 /* AppTests */,
+				ABC948A31AEC41CBA4E754E5 /* OpenLogi */,
+				3A4D6C744FD205493E7EB2DE /* Packages */,
+				32AC5C76C0FB8EBCF5084430 /* Resources */,
+				645E645BCD10BDBF2CECC9DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A52C9814C57374D65185B4A /* devices */ = {
+			isa = PBXGroup;
+			children = (
+				726BA667C9443B33669D205C /* mx-master-4-001 */,
+			);
+			path = devices;
+			sourceTree = "<group>";
+		};
+		ABC948A31AEC41CBA4E754E5 /* OpenLogi */ = {
+			isa = PBXGroup;
+			children = (
+				C0382DBA42ED73672F592E71 /* fixtures */,
+			);
+			name = OpenLogi;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0382DBA42ED73672F592E71 /* fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				8A52C9814C57374D65185B4A /* devices */,
+			);
+			path = fixtures;
+			sourceTree = "<group>";
+		};
+		F678EBC9755F4DB1D213B961 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				19E35AAA8EE8C7B528D88AFE /* ActionRingEditor.swift */,
+				D69BA7CB2B1366D6D229C27A /* AgentClient.swift */,
+				5F7F114672D390FE2BEE084E /* AppModel.swift */,
+				B4EAF8F5844914D02938A400 /* ButtonInspector.swift */,
+				40E38C7740422BA277974D41 /* ContentView.swift */,
+				B03FAB11F5ADB8A0A465D439 /* DeviceView.swift */,
+				77C0C81DD9BA95C6AD52F141 /* DiagnosticsView.swift */,
+				8A8127D5C7D9417C3D30CB27 /* MouseDiagram.swift */,
+				105FCCAD5A0EF162E0581E86 /* MXMaster4App.swift */,
+				900DA9D06D38ADFD907799A2 /* PointerView.swift */,
+				416C39CF1A4DC63DF539DD5E /* Presentation.swift */,
+				1DCB9B3CE3D0568CF2E76A40 /* WorkspaceState.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FFACA9B1E806BC90C435DDF9 /* AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D75B7DCDDCA795AB5FD48B64 /* WorkspaceTests.swift */,
+			);
+			path = AppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B86C2353AC2DD8B06BE606D /* MXMaster4AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C265051346E797086DFE412 /* Build configuration list for PBXNativeTarget "MXMaster4AppTests" */;
+			buildPhases = (
+				F9B39A5A1118D21D969EF230 /* Sources */,
+				73812A6E6CEA04E4CB8051AC /* Resources */,
+				9E2A2828E9D8495AE63D7D22 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3DD935163905B4C063BA86D /* PBXTargetDependency */,
+			);
+			name = MXMaster4AppTests;
+			packageProductDependencies = (
+				32A6A172A974213F2C0A6771 /* MXMaster4Core */,
+				28966E681AE34925AE2982FB /* MXMaster4IPC */,
+			);
+			productName = MXMaster4AppTests;
+			productReference = F269FD4F05A45F7AC7EB5380 /* MXMaster4AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7766B6E133AD311A68E7DFA /* MXMaster4Agent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94774905AFF75410E49E0F6C /* Build configuration list for PBXNativeTarget "MXMaster4Agent" */;
+			buildPhases = (
+				B08AB138D3ED02AC888F4CC2 /* Sources */,
+				7BFBF8A11D3DF26FCE9EB4C4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXMaster4Agent;
+			packageProductDependencies = (
+				1C5CFB470348551EB8382184 /* MXMaster4Core */,
+				7A8562E78D63DCC0049B4ECA /* MXMaster4HID */,
+				C599FD7524648EED6548ECF3 /* MXMaster4IPC */,
+			);
+			productName = MXMaster4Agent;
+			productReference = C904AACF59FE4E4170D65551 /* MXMaster4Agent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA8D3115E3BE72F632FB55CA /* MXMaster4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EB25D7A1D8381DA6D662CF /* Build configuration list for PBXNativeTarget "MXMaster4" */;
+			buildPhases = (
+				875323EF393DE1F11A3EB1C2 /* Sources */,
+				FA903D10B6FD262A8ACD80F2 /* Resources */,
+				8006E21AAEA52B934E1AF12A /* Frameworks */,
+				2AFA72A7051D81ABCFC676E6 /* Embed Dependencies */,
+				0D82A9C50E1A61408E42A1E3 /* Prepare launch agent */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B18D1669F1C1E74584C307B /* PBXTargetDependency */,
+			);
+			name = MXMaster4;
+			packageProductDependencies = (
+				8693F6E1E7C0C52AAF0DBAF0 /* MXMaster4Core */,
+				91CEF548B92963B9343DAEB5 /* MXMaster4IPC */,
+			);
+			productName = MXMaster4;
+			productReference = 68B616BCE92851968411585E /* MXMaster4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		053894604966A7199707E215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4B86C2353AC2DD8B06BE606D = {
+						ProvisioningStyle = Manual;
+					};
+					F7766B6E133AD311A68E7DFA = {
+						ProvisioningStyle = Manual;
+					};
+					FA8D3115E3BE72F632FB55CA = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 66B21255303D9AE8EAB53F5B /* Build configuration list for PBXProject "MXMaster4" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 71F82B0443C8076666528A29;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1CF19FB0D1AA278EBCBC406F /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 645E645BCD10BDBF2CECC9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7766B6E133AD311A68E7DFA /* MXMaster4Agent */,
+				FA8D3115E3BE72F632FB55CA /* MXMaster4 */,
+				4B86C2353AC2DD8B06BE606D /* MXMaster4AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73812A6E6CEA04E4CB8051AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAA951B14CCC1A26B62D7B6 /* mx-master-4-001 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA903D10B6FD262A8ACD80F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1262EC3DF276D47425C00952 /* Device in Resources */,
+				ABA2179A7B098A038BFDBD24 /* Graphics.xcassets in Resources */,
+				12E2FFBF6D87E29474EF162D /* OpenLogi-Brand-LICENSE.txt in Resources */,
+				9BD3718872D590548372208B /* device-provenance.json in Resources */,
+				9AC6F9CF7CCEFF3DEF11567E /* presentation.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D82A9C50E1A61408E42A1E3 /* Prepare launch agent */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Configuration/MXMaster4Agent.plist.in",
+			);
+			name = "Prepare launch agent";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(CONTENTS_FOLDER_PATH)/Library/LaunchAgents/MXMaster4Agent.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -eu\ndestination=\"$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH/Library/LaunchAgents\"\nmkdir -p \"$destination\"\nsed \"s/@SERVICE_NAME@/$MX4_SERVICE_NAME/g\" \"$SRCROOT/Configuration/MXMaster4Agent.plist.in\" > \"$destination/MXMaster4Agent.plist\"\nplutil -lint \"$destination/MXMaster4Agent.plist\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		875323EF393DE1F11A3EB1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA6A5E9C0D654640091B0E9 /* ActionRingEditor.swift in Sources */,
+				7645F3CAA8237F0D33DBCA49 /* AgentClient.swift in Sources */,
+				F9BAB77572D13967A50201B4 /* AppModel.swift in Sources */,
+				04E167DC1ED5DBC8ED03E28F /* ButtonInspector.swift in Sources */,
+				99935554914E904DA9C4A201 /* ContentView.swift in Sources */,
+				F1E206066C91FEFEF559A98E /* DeviceView.swift in Sources */,
+				2BD9E08045890EFCB4011E46 /* DiagnosticsView.swift in Sources */,
+				E47B5ED986BE8455F36BE508 /* MXMaster4App.swift in Sources */,
+				5E147A0905DDC0D48C24288A /* MouseDiagram.swift in Sources */,
+				685A93A77FC52CF9B1C38DDE /* PointerView.swift in Sources */,
+				BCAA16ACB093BA8E8E9C62F2 /* Presentation.swift in Sources */,
+				8A10AE150CF4EDED9385C7D4 /* WorkspaceState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08AB138D3ED02AC888F4CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6734B52A7A60310F977DCEA4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B39A5A1118D21D969EF230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F53DE5DD6BFED9B38C20C0E /* WorkspaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B18D1669F1C1E74584C307B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7766B6E133AD311A68E7DFA /* MXMaster4Agent */;
+			targetProxy = DBDE7110A2D40023EDC9D258 /* PBXContainerItemProxy */;
+		};
+		A3DD935163905B4C063BA86D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8D3115E3BE72F632FB55CA /* MXMaster4 */;
+			targetProxy = 0055D3A8FB290EBF0D10D866 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B2AF409F7CB46DA0DE1DB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Configuration/Agent-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MX4_SERVICE_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		221A578599027335D98524DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Configuration/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.openlogi.mxmaster4;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		429F8E89237EC4B671816D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.openlogi.mxmaster4.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXMaster4.app/Contents/MacOS/MXMaster4";
+			};
+			name = Debug;
+		};
+		44AE8230D3EEC470997D3F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Configuration/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.openlogi.mxmaster4;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6985997FB87AB21E83788788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.openlogi.mxmaster4.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXMaster4.app/Contents/MacOS/MXMaster4";
+			};
+			name = Release;
+		};
+		70154290873A711FB99DE22C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				MX4_SERVICE_NAME = dev.openlogi.mxmaster4.agent;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		AB990D0E3A7D1199FF332B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				MX4_SERVICE_NAME = dev.openlogi.mxmaster4.agent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		C83B3EEBC884B7ADE0405AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Configuration/Agent-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MX4_SERVICE_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66B21255303D9AE8EAB53F5B /* Build configuration list for PBXProject "MXMaster4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70154290873A711FB99DE22C /* Debug */,
+				AB990D0E3A7D1199FF332B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C265051346E797086DFE412 /* Build configuration list for PBXNativeTarget "MXMaster4AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429F8E89237EC4B671816D7F /* Debug */,
+				6985997FB87AB21E83788788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		94774905AFF75410E49E0F6C /* Build configuration list for PBXNativeTarget "MXMaster4Agent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2AF409F7CB46DA0DE1DB74 /* Debug */,
+				C83B3EEBC884B7ADE0405AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2EB25D7A1D8381DA6D662CF /* Build configuration list for PBXNativeTarget "MXMaster4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221A578599027335D98524DA /* Debug */,
+				44AE8230D3EEC470997D3F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		1CF19FB0D1AA278EBCBC406F /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C5CFB470348551EB8382184 /* MXMaster4Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MXMaster4Core;
+		};
+		28966E681AE34925AE2982FB /* MXMaster4IPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MXMaster4IPC;
+		};
+		32A6A172A974213F2C0A6771 /* MXMaster4Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MXMaster4Core;
+		};
+		7A8562E78D63DCC0049B4ECA /* MXMaster4HID */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MXMaster4HID;
+		};
+		8693F6E1E7C0C52AAF0DBAF0 /* MXMaster4Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MXMaster4Core;
+		};
+		91CEF548B92963B9343DAEB5 /* MXMaster4IPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MXMaster4IPC;
+		};
+		C599FD7524648EED6548ECF3 /* MXMaster4IPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MXMaster4IPC;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 053894604966A7199707E215 /* Project object */;
+}

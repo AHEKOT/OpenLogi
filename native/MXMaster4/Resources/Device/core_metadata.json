@@ -1,0 +1,395 @@
+{
+  "images": [
+    {
+      "key": "device_image",
+      "origin": {
+        "width": 636,
+        "height": 1024
+      }
+    },
+    {
+      "key": "device_gesture_buttons_image",
+      "origin": {
+        "width": 636,
+        "height": 1024
+      },
+      "assignments": [
+        {
+          "slotId": "mx-master-4-2b042-left",
+          "slotName": "SLOT_NAME_GESTURE_LEFT_BUTTON",
+          "slotDir": "left",
+          "marker": {
+            "x": -40,
+            "y": 30
+          },
+          "label": {
+            "x": -1,
+            "y": 0
+          }
+        },
+        {
+          "slotId": "mx-master-4-2b042-right",
+          "slotName": "SLOT_NAME_GESTURE_RIGHT_BUTTON",
+          "slotDir": "right",
+          "marker": {
+            "x": 130,
+            "y": 30
+          },
+          "label": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "slotId": "mx-master-4-2b042-up",
+          "slotName": "SLOT_NAME_GESTURE_UP_BUTTON",
+          "slotDir": "up",
+          "marker": {
+            "x": 45,
+            "y": -14
+          },
+          "label": {
+            "x": 0,
+            "y": -1
+          }
+        },
+        {
+          "slotId": "mx-master-4-2b042-down",
+          "slotName": "SLOT_NAME_GESTURE_DOWN_BUTTON",
+          "slotDir": "down",
+          "marker": {
+            "x": 45,
+            "y": 72
+          },
+          "label": {
+            "x": 0,
+            "y": 1
+          }
+        },
+        {
+          "slotId": "mx-master-4-2b042-click",
+          "slotName": "SLOT_NAME_GESTURE_CLICK_BUTTON",
+          "slotDir": "click",
+          "marker": {
+            "x": 15,
+            "y": 40
+          },
+          "label": {
+            "x": 0,
+            "y": 1
+          }
+        }
+      ]
+    },
+    {
+      "key": "device_buttons_image",
+      "origin": {
+        "width": 636,
+        "height": 1024
+      },
+      "assignments": [
+        {
+          "slotId": "mx-master-4-2b042_c82",
+          "slotName": "SLOT_NAME_MIDDLE_BUTTON",
+          "rootName": "WHEEL_BUTTON",
+          "marker": {
+            "x": 75.5,
+            "y": 19
+          },
+          "label": {
+            "x": 1,
+            "y": 0
+          },
+          "assignmentStyles": {
+            "gesture": {
+              "marker": {
+                "x": 4,
+                "y": 7
+              }
+            }
+          }
+        },
+        {
+          "slotId": "mx-master-4-2b042_c196",
+          "slotName": "SLOT_NAME_MODESHIFT_BUTTON",
+          "rootName": "TOP_BUTTON",
+          "marker": {
+            "x": 80.5,
+            "y": 39.5
+          },
+          "label": {
+            "x": 1,
+            "y": 0
+          },
+          "assignmentStyles": {
+            "gesture": {
+              "marker": {
+                "x": 0,
+                "y": 14
+              }
+            }
+          }
+        },
+        {
+          "slotId": "mx-master-4-2b042_thumb_wheel_adapter",
+          "slotName": "SLOT_NAME_THUMBWHEEL",
+          "rootName": "THUMB_WHEEL",
+          "marker": {
+            "x": 56.5,
+            "y": 56.4
+          },
+          "label": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "slotId": "mx-master-4-2b042_c86",
+          "slotName": "SLOT_NAME_FORWARD_BUTTON",
+          "rootName": "FORWARD_BUTTON",
+          "marker": {
+            "x": 42.5,
+            "y": 47
+          },
+          "label": {
+            "x": 1,
+            "y": 0
+          },
+          "assignmentStyles": {
+            "gesture": {
+              "marker": {
+                "x": -1.1,
+                "y": 17
+              }
+            }
+          }
+        },
+        {
+          "slotId": "mx-master-4-2b042_c83",
+          "slotName": "SLOT_NAME_BACK_BUTTON",
+          "rootName": "BACK_BUTTON",
+          "marker": {
+            "x": 47.3,
+            "y": 60
+          },
+          "label": {
+            "x": 0,
+            "y": 1
+          },
+          "assignmentStyles": {
+            "gesture": {
+              "marker": {
+                "x": 0,
+                "y": 24
+              }
+            }
+          }
+        },
+        {
+          "slotId": "mx-master-4-2b042_c195",
+          "slotName": "SLOT_NAME_GESTURE_BUTTON",
+          "rootName": "THUMB_BUTTON",
+          "marker": {
+            "x": 38.6,
+            "y": 36.1
+          },
+          "label": {
+            "x": -1,
+            "y": 0
+          },
+          "assignmentStyles": {
+            "gesture": {
+              "marker": {
+                "x": 0,
+                "y": 14
+              }
+            }
+          }
+        },
+        {
+          "slotId": "mx-master-4-2b042_c416",
+          "slotName": "ASSIGNMENT_NAME_SHOW_RADIAL_MENU",
+          "marker": {
+            "x": 30.4,
+            "y": 48.9
+          },
+          "label": {
+            "x": -1,
+            "y": 0
+          },
+          "assignmentStyles": {
+            "gesture": {
+              "marker": {
+                "x": 0.2,
+                "y": 19.6
+              },
+              "label": {
+                "x": 0,
+                "y": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "device_point_scroll_press_image",
+      "origin": {
+        "width": 636,
+        "height": 1024
+      },
+      "assignments": [
+        {
+          "slotId": "mx-master-4-2b042_mouse_settings",
+          "slotName": "SLOT_NAME_POINTER_SETTINGS",
+          "marker": {
+            "x": 85,
+            "y": 64
+          },
+          "label": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "slotId": "mx-master-4-2b042_mouse_scroll_wheel_settings",
+          "slotName": "SLOT_NAME_SCROLL_WHEEL_SETTINGS",
+          "marker": {
+            "x": 74,
+            "y": 19.5
+          },
+          "label": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "slotId": "mx-master-4-2b042_force_sensing_settings",
+          "slotName": "SLOT_NAME_BUTTON_SENSITIVITY",
+          "marker": {
+            "x": 30.4,
+            "y": 48.9
+          },
+          "label": {
+            "x": -1,
+            "y": 0
+          }
+        },
+        {
+          "slotId": "mx-master-4-2b042_mouse_thumb_wheel_settings",
+          "slotName": "SLOT_NAME_THUMBWHEEL_SETTINGS",
+          "marker": {
+            "x": 52.2,
+            "y": 44.6
+          },
+          "label": {
+            "x": 1,
+            "y": 0
+          }
+        }
+      ]
+    },
+    {
+      "key": "device_haptic_feedback_image",
+      "origin": {
+        "width": 636,
+        "height": 1024
+      },
+      "assignments": [
+        {
+          "slotId": "mx-master-4-2b042_haptic_settings",
+          "slotName": "SLOT_NAME_HAPTIC_FEEDBACK",
+          "marker": {
+            "x": 30.5,
+            "y": 48.6
+          },
+          "label": {
+            "x": -1,
+            "y": 0
+          }
+        }
+      ]
+    },
+    {
+      "key": "device_easyswitch_image",
+      "origin": {
+        "width": 1872,
+        "height": 728
+      },
+      "layoutPosition": {
+        "easySwitch": {
+          "top": -8,
+          "left": 50
+        },
+        "hotSpot": {
+          "width": 30,
+          "height": 30,
+          "borderRadius": 4
+        },
+        "layoutHotspot": {
+          "width": 11,
+          "height": 11,
+          "hotspotRadius": 84
+        }
+      },
+      "assignments": [
+        {
+          "slotId": "mx-master-4-2b042_easy_switch_1",
+          "slotName": "SLOT_NAME_EASYSWITCH_1",
+          "marker": {
+            "x": 22,
+            "y": 65.9
+          },
+          "label": {
+            "x": -1,
+            "y": -1
+          },
+          "card": {},
+          "position": 0
+        },
+        {
+          "slotId": "mx-master-4-2b042_easy_switch_2",
+          "slotName": "SLOT_NAME_EASYSWITCH_2",
+          "marker": {
+            "x": 25.8,
+            "y": 64.6
+          },
+          "label": {
+            "x": -1,
+            "y": -1
+          },
+          "card": {},
+          "position": 1
+        },
+        {
+          "slotId": "mx-master-4-2b042_easy_switch_3",
+          "slotName": "SLOT_NAME_EASYSWITCH_3",
+          "marker": {
+            "x": 29.9,
+            "y": 65.9
+          },
+          "label": {
+            "x": -1,
+            "y": -1
+          },
+          "card": {},
+          "position": 2
+        },
+        {
+          "slotId": "mx-master-4-2b042_host_change",
+          "slotName": "SLOT_NAME_EASYSWITCH_HOST_CHANGE_BUTTON",
+          "marker": {
+            "x": 25.1,
+            "y": 72.7
+          },
+          "label": {
+            "x": -1,
+            "y": -1
+          },
+          "card": {},
+          "position": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "data": {
+    "420fd454-0c36-499d-bde4-146823b16147": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c416",
+          "infos": [
+            "PRESET_TAG_MOUSE_SMARTSHIFT",
+            "PRESET_TAG_BUTTON",
+            "PRESET_TAG_KEY_OR_BUTTON",
+            "PRESET_TAG_KEY_OR_BUTTON_ADVANCED_CLICK",
+            "PRESET_TAG_MISC",
+            "PRESET_TAG_GESTURE",
+            "PRESET_TAG_BRIGHTNESS",
+            "PRESET_TAG_SPOTLIGHT_EFFECTS"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "PRESET_TAG_MOUSE",
+            "PRESET_TAG_MOUSE_SMARTSHIFT",
+            "PRESET_TAG_BUTTON",
+            "PRESET_TAG_KEY_OR_BUTTON",
+            "PRESET_TAG_KEY_OR_BUTTON_ADVANCED_CLICK",
+            "PRESET_TAG_MISC",
+            "PRESET_TAG_GESTURE",
+            "PRESET_TAG_BRIGHTNESS",
+            "PRESET_TAG_SPOTLIGHT_EFFECTS"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "PRESET_TAG_MOUSE",
+            "PRESET_TAG_MOUSE_SMARTSHIFT",
+            "PRESET_TAG_BUTTON",
+            "PRESET_TAG_KEY_OR_BUTTON",
+            "PRESET_TAG_KEY_OR_BUTTON_ADVANCED_CLICK",
+            "PRESET_TAG_MISC",
+            "PRESET_TAG_GESTURE",
+            "PRESET_TAG_BRIGHTNESS",
+            "PRESET_TAG_SPOTLIGHT_EFFECTS"
+          ]
+        }
+      ]
+    },
+    "application_id_adobe_photoshop": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_word": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_excel": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_powerpoint": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    },
+    "application_id_adobe_premierepro": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    },
+    "application_id_google_chrome": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_edge_chromium": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    },
+    "application_id_apple_safari": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_teams": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_teams_new": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    },
+    "application_id_zoom": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    },
+    "application_id_final_cut_pro": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    },
+    "application_id_tencent_meeting": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    },
+    "application_id_voov_meeting": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "PRESET_TAG_THUMBWHEEL"
+          ]
+        }
+      ]
+    }
+  }
+}

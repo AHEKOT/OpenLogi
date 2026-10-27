@@ -1,0 +1,125 @@
+name: MXMaster4
+options:
+  deploymentTarget:
+    macOS: "13.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    ENABLE_APP_SANDBOX: NO
+    ENABLE_HARDENED_RUNTIME: YES
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "-"
+    MACOSX_DEPLOYMENT_TARGET: "13.0"
+    MX4_SERVICE_NAME: dev.openlogi.mxmaster4.agent
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+packages:
+  MXMaster4:
+    path: .
+targets:
+  MXMaster4Agent:
+    type: application
+    platform: macOS
+    sources: [Agent]
+    info:
+      path: Configuration/Agent-Info.plist
+      properties:
+        CFBundleDisplayName: MX Master 4 Agent
+        LSUIElement: true
+        MX4ServiceName: $(MX4_SERVICE_NAME)
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(MX4_SERVICE_NAME)
+        SKIP_INSTALL: YES
+    dependencies:
+      - package: MXMaster4
+        product: MXMaster4Core
+      - package: MXMaster4
+        product: MXMaster4HID
+      - package: MXMaster4
+        product: MXMaster4IPC
+  MXMaster4:
+    type: application
+    platform: macOS
+    sources:
+      - path: App
+      - path: Resources/Graphics.xcassets
+      - path: Resources/Device
+        type: folder
+        buildPhase: resources
+      - path: Resources/presentation.json
+        buildPhase: resources
+      - path: Resources/device-provenance.json
+        buildPhase: resources
+      - path: Resources/OpenLogi-Brand-LICENSE.txt
+        buildPhase: resources
+    info:
+      path: Configuration/App-Info.plist
+      properties:
+        CFBundleDisplayName: MX Master 4 Native
+        LSApplicationCategoryType: public.app-category.utilities
+        NSPrincipalClass: NSApplication
+        MX4ServiceName: $(MX4_SERVICE_NAME)
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.openlogi.mxmaster4
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    dependencies:
+      - package: MXMaster4
+        product: MXMaster4Core
+      - package: MXMaster4
+        product: MXMaster4IPC
+      - target: MXMaster4Agent
+        embed: true
+        link: false
+        codeSign: true
+        copy:
+          destination: wrapper
+          subpath: Contents/Library/LoginItems
+    postBuildScripts:
+      - name: Prepare launch agent
+        script: |
+          set -eu
+          destination="$TARGET_BUILD_DIR/$CONTENTS_FOLDER_PATH/Library/LaunchAgents"
+          mkdir -p "$destination"
+          sed "s/@SERVICE_NAME@/$MX4_SERVICE_NAME/g" "$SRCROOT/Configuration/MXMaster4Agent.plist.in" > "$destination/MXMaster4Agent.plist"
+          plutil -lint "$destination/MXMaster4Agent.plist"
+        inputFiles:
+          - $(SRCROOT)/Configuration/MXMaster4Agent.plist.in
+        outputFiles:
+          - $(TARGET_BUILD_DIR)/$(CONTENTS_FOLDER_PATH)/Library/LaunchAgents/MXMaster4Agent.plist
+  MXMaster4AppTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: AppTests
+      - path: ../../fixtures/devices/mx-master-4-001
+        type: folder
+        buildPhase: resources
+    settings:
+      base:
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        PRODUCT_BUNDLE_IDENTIFIER: dev.openlogi.mxmaster4.tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/MXMaster4.app/Contents/MacOS/MXMaster4
+        BUNDLE_LOADER: $(TEST_HOST)
+    dependencies:
+      - target: MXMaster4
+      - package: MXMaster4
+        product: MXMaster4Core
+      - package: MXMaster4
+        product: MXMaster4IPC
+schemes:
+  MXMaster4:
+    build:
+      targets:
+        MXMaster4: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - MXMaster4AppTests
+      gatherCoverageData: true

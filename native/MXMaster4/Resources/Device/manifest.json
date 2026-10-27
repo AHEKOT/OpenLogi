@@ -1,0 +1,296 @@
+{
+  "devices": [
+    {
+      "modelId": "2b042",
+      "resources": [
+        {
+          "key": "device_image",
+          "src": "front_core.png"
+        },
+        {
+          "key": "device_buttons_image",
+          "src": "side_core.png"
+        },
+        {
+          "key": "device_point_scroll_press_image",
+          "src": "side_core.png"
+        },
+        {
+          "key": "device_haptic_feedback_image",
+          "src": "side_core.png"
+        },
+        {
+          "key": "device_easyswitch_image",
+          "src": "back_core.png"
+        }
+      ]
+    },
+    {
+      "modelId": "2b042_ext1",
+      "resources": [
+        {
+          "key": "device_image",
+          "src": "front_ext_1.png"
+        },
+        {
+          "key": "device_buttons_image",
+          "src": "side_ext_1.png"
+        },
+        {
+          "key": "device_point_scroll_press_image",
+          "src": "side_ext_1.png"
+        },
+        {
+          "key": "device_haptic_feedback_image",
+          "src": "side_ext_1.png"
+        },
+        {
+          "key": "device_easyswitch_image",
+          "src": "back_ext_1.png"
+        }
+      ]
+    },
+    {
+      "modelId": "2b042_ext2",
+      "resources": [
+        {
+          "key": "device_image",
+          "src": "front_ext_2.png"
+        },
+        {
+          "key": "device_buttons_image",
+          "src": "side_ext_2.png"
+        },
+        {
+          "key": "device_point_scroll_press_image",
+          "src": "side_ext_2.png"
+        },
+        {
+          "key": "device_haptic_feedback_image",
+          "src": "side_ext_2.png"
+        },
+        {
+          "key": "device_easyswitch_image",
+          "src": "back_ext_2.png"
+        }
+      ]
+    },
+    {
+      "modelId": "2b042_ext3",
+      "resources": [
+        {
+          "key": "device_image",
+          "src": "front_ext_3.png"
+        },
+        {
+          "key": "device_buttons_image",
+          "src": "side_ext_3.png"
+        },
+        {
+          "key": "device_point_scroll_press_image",
+          "src": "side_ext_3.png"
+        },
+        {
+          "key": "device_haptic_feedback_image",
+          "src": "side_ext_3.png"
+        },
+        {
+          "key": "device_easyswitch_image",
+          "src": "back_ext_3.png"
+        }
+      ]
+    },
+    {
+      "modelId": "2b042_ext4",
+      "resources": [
+        {
+          "key": "device_image",
+          "src": "front_ext_4.png"
+        },
+        {
+          "key": "device_buttons_image",
+          "src": "side_ext_4.png"
+        },
+        {
+          "key": "device_point_scroll_press_image",
+          "src": "side_ext_4.png"
+        },
+        {
+          "key": "device_haptic_feedback_image",
+          "src": "side_ext_4.png"
+        },
+        {
+          "key": "device_easyswitch_image",
+          "src": "back_ext_4.png"
+        }
+      ]
+    },
+    {
+      "modelId": "2b042_ext5",
+      "resources": [
+        {
+          "key": "device_image",
+          "src": "front_ext_5.png"
+        },
+        {
+          "key": "device_buttons_image",
+          "src": "side_ext_5.png"
+        },
+        {
+          "key": "device_point_scroll_press_image",
+          "src": "side_ext_5.png"
+        },
+        {
+          "key": "device_haptic_feedback_image",
+          "src": "side_ext_5.png"
+        },
+        {
+          "key": "device_easyswitch_image",
+          "src": "back_ext_5.png"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "key": "manifest",
+      "src": "manifest.json"
+    },
+    {
+      "key": "ripple-hotspot",
+      "src": "ripple-hotspot.png"
+    },
+    {
+      "key": "ripple-hotspot_dark",
+      "src": "ripple-hotspot_dark.png"
+    },
+    {
+      "key": "gesture_zone",
+      "src": "gesture_zone.png"
+    },
+    {
+      "key": "gesture_zone_dark",
+      "src": "gesture_zone_dark.png"
+    },
+    {
+      "key": "image_metadata",
+      "src": "core_metadata.json"
+    },
+    {
+      "key": "onboarding_data",
+      "src": "OnboardData.json"
+    },
+    {
+      "key": "database_defaults_slots",
+      "src": "defaults_slot.json"
+    },
+    {
+      "key": "database_availability_slots",
+      "src": "availability_slots.json"
+    },
+    {
+      "key": "database_recommendation_slots",
+      "src": "recommendation_slots.json"
+    },
+    {
+      "key": "haptic_config",
+      "src": "haptic_config.json"
+    },
+    {
+      "key": "device_image",
+      "src": "front_core.png"
+    },
+    {
+      "key": "device_buttons_image",
+      "src": "side_core.png"
+    },
+    {
+      "key": "device_point_scroll_press_image",
+      "src": "side_core.png"
+    },
+    {
+      "key": "device_haptic_feedback_image",
+      "src": "side_core.png"
+    },
+    {
+      "key": "action_ring_default",
+      "src": "action_ring_default.png"
+    },
+    {
+      "key": "action_ring_plugin",
+      "src": "action_ring_plugin.png"
+    },
+    {
+      "key": "actions-zone-static",
+      "src": "actions_zone/actions-zone-static.png"
+    },
+    {
+      "key": "actions-zone-static",
+      "src": "actions_zone/actions-zone-static_dark.png"
+    },
+    {
+      "key": "actions-zone_ani1",
+      "src": "actions_zone/actions-zone_ani1.gif"
+    },
+    {
+      "key": "actions-zone_ani2",
+      "src": "actions_zone/actions-zone_ani2.gif"
+    },
+    {
+      "key": "actions-zone_ani3",
+      "src": "actions_zone/actions-zone_ani3.gif"
+    },
+    {
+      "key": "actions-zone_ani4",
+      "src": "actions_zone/actions-zone_ani4.gif"
+    },
+    {
+      "key": "actions-zone_ani1_dark",
+      "src": "actions_zone/actions-zone_ani1_dark.gif"
+    },
+    {
+      "key": "actions-zone_ani2_dark",
+      "src": "actions_zone/actions-zone_ani2_dark.gif"
+    },
+    {
+      "key": "actions-zone_ani3_dark",
+      "src": "actions_zone/actions-zone_ani3_dark.gif"
+    },
+    {
+      "key": "actions-zone_ani4_dark",
+      "src": "actions_zone/actions-zone_ani4_dark.gif"
+    },
+    {
+      "key": "app_icon_gmail",
+      "src": "app_icons/gmail.png"
+    },
+    {
+      "key": "app_icon_illustrator",
+      "src": "app_icons/illustrator.png"
+    },
+    {
+      "key": "app_icon_premiere",
+      "src": "app_icons/premiere.png"
+    },
+    {
+      "key": "app_icon_ps",
+      "src": "app_icons/ps.png"
+    },
+    {
+      "key": "app_icon_lc",
+      "src": "app_icons/lc.png"
+    },
+    {
+      "key": "app_icon_google_slide",
+      "src": "app_icons/google_slide.png"
+    },
+    {
+      "key": "app_icon_after_effect",
+      "src": "app_icons/after_effect.png"
+    },
+    {
+      "key": "app_icon_zoom",
+      "src": "app_icons/zoom.png"
+    }
+  ]
+}

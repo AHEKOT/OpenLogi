@@ -1,0 +1,993 @@
+{
+  "data": {
+    "420fd454-0c36-499d-bde4-146823b16147": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_global_presets_middle_button",
+            "card_global_presets_mode_shift",
+            "card_global_presets_osx_mission_control",
+            "card_global_presets_osx_hide_show_desktop",
+            "card_global_presets_one_of_gesture_button",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_spotlight_effects",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_global_presets_osx_back",
+            "card_global_presets_osx_copy",
+            "card_global_presets_volume_down",
+            "card_global_presets_osx_undo",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_spotlight_effects",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_global_presets_osx_forward",
+            "card_global_presets_osx_paste",
+            "card_global_presets_volume_up",
+            "card_global_presets_osx_redo",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_spotlight_effects",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_global_presets_osx_mission_control",
+            "card_global_presets_osx_hide_show_desktop",
+            "card_global_presets_osx_screen_capture",
+            "card_global_presets_osx_switch_apps",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_spotlight_effects",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_global_presets_osx_mission_control",
+            "card_global_presets_middle_button",
+            "card_global_presets_one_of_gesture_button",
+            "card_global_presets_osx_screen_capture",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_spotlight_effects",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c416",
+          "infos": [
+            "card_global_presets_show_radial_menu",
+            "card_global_presets_osx_mission_control",
+            "card_global_presets_osx_hide_show_desktop",
+            "card_global_presets_osx_screen_capture",
+            "card_global_presets_osx_switch_apps",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_spotlight_effects"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_global_presets_osx_horizontal_scroll",
+            "card_global_presets_osx_zoom",
+            "card_global_presets_osx_volume_control",
+            "card_global_presets_osx_tab_navigation",
+            "card_global_presets_osx_keystroke_2ways"
+          ]
+        }
+      ]
+    },
+    "application_id_adobe_photoshop": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_photoshop_pan_hold_move",
+            "card_global_presets_mode_shift",
+            "card_photoshop_zoomToFitScreen",
+            "card_photoshop_osx_save",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_global_presets_osx_undo",
+            "card_global_presets_osx_copy",
+            "card_photoshop_tabNavigationPrev",
+            "card_photoshop_brushSizeDown",
+            "card_photoshop_zoomOut",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_global_presets_osx_redo",
+            "card_global_presets_osx_paste",
+            "card_photoshop_tabNavigationNext",
+            "card_photoshop_brushSizeUp",
+            "card_photoshop_zoomIn",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_photoshop_zoomToFitScreen",
+            "card_photoshop_setToolDodgeTool",
+            "card_photoshop_osx_save",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_global_presets_one_of_gesture_button",
+            "card_photoshop_pan_hold_move",
+            "card_photoshop_osx_save",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_photoshop_brushSize",
+            "card_photoshop_zoom",
+            "card_photoshop_tabNavigation",
+            "card_photoshop_brushHardness",
+            "card_photoshop_brushOpacity",
+            "card_photoshop_osx_redo_undo",
+            "card_global_presets_osx_keystroke_2ways",
+            "card_global_presets_osx_horizontal_scroll"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_word": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_word_presets_osx_pan",
+            "card_global_presets_mode_shift",
+            "card_word_osx_paste_match_format",
+            "card_word_osx_save",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_global_presets_osx_undo",
+            "card_global_presets_osx_copy",
+            "card_global_presets_osx_paste",
+            "card_word_osx_pageUp",
+            "card_word_osx_pageDown",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_global_presets_osx_redo",
+            "card_global_presets_osx_paste",
+            "card_global_presets_osx_copy",
+            "card_word_osx_pageDown",
+            "card_word_osx_pageUp",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_word_osx_save",
+            "card_word_osx_find",
+            "card_word_osx_paste_match_format",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_word_presets_osx_pan",
+            "card_global_presets_one_of_gesture_button",
+            "card_word_osx_paste_match_format",
+            "card_word_osx_save",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_word_osx_zoom",
+            "card_word_osx_text_size",
+            "card_global_presets_osx_horizontal_scroll",
+            "card_word_osx_page_navigation",
+            "card_word_osx_redo_undo",
+            "card_global_presets_osx_keystroke_2ways"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_excel": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_excel_presets_osx_pan",
+            "card_global_presets_mode_shift",
+            "card_excel_osx_save",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_global_presets_osx_undo",
+            "card_global_presets_osx_copy",
+            "card_excel_osx_prevSheet",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_global_presets_osx_redo",
+            "card_global_presets_osx_paste",
+            "card_excel_osx_pasteSpecial",
+            "card_excel_osx_nextSheet",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_excel_osx_save",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_excel_presets_osx_pan",
+            "card_global_presets_one_of_gesture_button",
+            "card_excel_osx_save",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_global_presets_osx_horizontal_scroll",
+            "card_excel_osx_sheet_navigation",
+            "card_excel_osx_zoom",
+            "card_excel_osx_redo_undo",
+            "card_global_presets_osx_keystroke_2ways"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_powerpoint": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_powerpoint_presets_osx_pan",
+            "card_global_presets_middle_button",
+            "card_global_presets_mode_shift",
+            "card_powerpoint_osx_save",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_global_presets_osx_undo",
+            "card_global_presets_osx_copy",
+            "card_powerpoint_osx_slide_duplicate",
+            "card_powerpoint_osx_slide_navigation_prev",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_global_presets_osx_redo",
+            "card_global_presets_osx_paste",
+            "card_powerpoint_osx_slide_new",
+            "card_powerpoint_osx_slide_navigation_next",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_powerpoint_osx_save",
+            "card_powerpoint_osx_slide_new",
+            "card_powerpoint_osx_slide_duplicate",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_global_presets_one_of_gesture_button",
+            "card_powerpoint_osx_save",
+            "card_powerpoint_osx_slide_new",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_powerpoint_osx_zoom",
+            "card_powerpoint_bring_forward_backward",
+            "card_powerpoint_osx_text_size",
+            "card_powerpoint_osx_slide_navigation",
+            "card_powerpoint_osx_redo_undo",
+            "card_global_presets_osx_keystroke_2ways"
+          ]
+        }
+      ]
+    },
+    "application_id_adobe_premierepro": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_premiere_pro_osx_pan",
+            "card_premiere_pro_osx_deleteSelection",
+            "card_global_presets_mode_shift",
+            "card_premiere_pro_osx_razorTool",
+            "card_premiere_pro_osx_selectionTool",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_global_presets_osx_undo",
+            "card_global_presets_osx_copy",
+            "card_premiere_pro_osx_prevEditPoint",
+            "card_premiere_pro_osx_razorTool",
+            "card_premiere_pro_osx_selectionTool",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_global_presets_osx_redo",
+            "card_global_presets_osx_paste",
+            "card_premiere_pro_osx_nextEditPoint",
+            "card_premiere_pro_osx_razorTool",
+            "card_premiere_pro_osx_deleteSelection",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_premiere_pro_osx_startPausePlayback",
+            "card_premiere_pro_osx_deleteSelection",
+            "card_premiere_pro_osx_razorTool",
+            "card_premiere_pro_osx_selectionTool",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_global_presets_one_of_gesture_button",
+            "card_premiere_pro_osx_startPausePlayback",
+            "card_premiere_pro_osx_save",
+            "card_premiere_pro_osx_deleteSelection",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_premiere_pro_osx_timelineHorizontalScroll",
+            "card_global_presets_osx_zoom",
+            "card_premiere_pro_osx_timelinePlayheadNavigation",
+            "card_global_presets_osx_keystroke_2ways"
+          ]
+        }
+      ]
+    },
+    "application_id_google_chrome": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_global_presets_middle_button",
+            "card_chrome_osx_refresh",
+            "card_global_presets_new_browser_tab",
+            "card_global_presets_mode_shift",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_global_presets_osx_back",
+            "card_global_presets_osx_undo",
+            "card_global_presets_osx_copy",
+            "card_chrome_osx_close_tab",
+            "card_global_presets_new_browser_tab",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_global_presets_osx_forward",
+            "card_global_presets_osx_redo",
+            "card_global_presets_osx_paste",
+            "card_chrome_osx_reopen_tab",
+            "card_chrome_osx_refresh",
+            "card_global_presets_new_browser_tab",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_chrome_osx_refresh",
+            "card_chrome_osx_close_tab",
+            "card_chrome_osx_reopen_tab",
+            "card_global_presets_new_browser_tab",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_global_presets_middle_button",
+            "card_global_presets_one_of_gesture_button",
+            "card_chrome_osx_refresh",
+            "card_global_presets_new_browser_tab",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_global_presets_osx_tab_navigation",
+            "card_global_presets_osx_horizontal_scroll",
+            "card_global_presets_osx_zoom",
+            "card_global_presets_osx_volume_control",
+            "card_global_presets_osx_keystroke_2ways"
+          ]
+        }
+      ]
+    },
+    "application_id_apple_safari": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_global_presets_middle_button",
+            "card_safari_osx_refresh",
+            "card_global_presets_new_browser_tab",
+            "card_global_presets_mode_shift",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_global_presets_osx_back",
+            "card_global_presets_osx_undo",
+            "card_global_presets_osx_copy",
+            "card_safari_osx_close_tab",
+            "card_global_presets_new_browser_tab",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_global_presets_osx_forward",
+            "card_global_presets_osx_redo",
+            "card_global_presets_osx_paste",
+            "card_safari_osx_reopen_tab",
+            "card_safari_osx_refresh",
+            "card_global_presets_new_browser_tab",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_safari_osx_refresh",
+            "card_safari_osx_close_tab",
+            "card_safari_osx_reopen_tab",
+            "card_global_presets_new_browser_tab",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_global_presets_middle_button",
+            "card_global_presets_one_of_gesture_button",
+            "card_safari_osx_refresh",
+            "card_global_presets_new_browser_tab",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_global_presets_osx_tab_navigation",
+            "card_global_presets_osx_horizontal_scroll",
+            "card_global_presets_osx_zoom",
+            "card_global_presets_osx_volume_control",
+            "card_global_presets_osx_keystroke_2ways"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_teams": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_global_presets_middle_button",
+            "card_teams_osx_toggle_mic",
+            "card_teams_osx_toggle_camera",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_teams_osx_toggle_mic",
+            "card_teams_osx_toggle_camera",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_teams_osx_toggle_camera",
+            "card_teams_osx_toggle_mic",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_teams_osx_toggle_mic",
+            "card_teams_osx_toggle_camera",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_teams_osx_toggle_mic",
+            "card_teams_osx_toggle_camera",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_global_presets_osx_volume_control",
+            "card_global_presets_osx_brightness_up_down",
+            "card_global_presets_osx_keystroke_2ways"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_teams_new": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_global_presets_middle_button",
+            "card_teams_osx_toggle_mic",
+            "card_teams_osx_toggle_camera",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_teams_osx_toggle_mic",
+            "card_teams_osx_toggle_camera",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_teams_osx_toggle_camera",
+            "card_teams_osx_toggle_mic",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_teams_osx_toggle_mic",
+            "card_teams_osx_toggle_camera",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_teams_osx_toggle_mic",
+            "card_teams_osx_toggle_camera",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_global_presets_osx_volume_control",
+            "card_global_presets_osx_brightness_up_down",
+            "card_global_presets_osx_keystroke_2ways"
+          ]
+        }
+      ]
+    },
+    "application_id_zoom": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_global_presets_middle_button",
+            "card_zoom_osx_toggle_mic",
+            "card_zoom_osx_toggle_camera",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_zoom_osx_toggle_mic",
+            "card_zoom_osx_toggle_camera",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_zoom_osx_toggle_camera",
+            "card_zoom_osx_toggle_mic",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_zoom_osx_toggle_mic",
+            "card_zoom_osx_toggle_camera",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_zoom_osx_toggle_mic",
+            "card_zoom_osx_toggle_camera",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_global_presets_osx_volume_control",
+            "card_global_presets_osx_brightness_up_down",
+            "card_global_presets_osx_keystroke_2ways"
+          ]
+        }
+      ]
+    },
+    "application_id_final_cut_pro": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_final_cut_pro_osx_pan",
+            "card_final_cut_pro_osx_deleteSelection",
+            "card_global_presets_mode_shift",
+            "card_final_cut_pro_osx_cutClip",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_global_presets_osx_undo",
+            "card_global_presets_osx_copy",
+            "card_final_cut_pro_osx_prevEditPoint",
+            "card_final_cut_pro_osx_bladeTool",
+            "card_final_cut_pro_osx_cutClip",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_global_presets_osx_redo",
+            "card_global_presets_osx_paste",
+            "card_final_cut_pro_osx_nextEditPoint",
+            "card_final_cut_pro_osx_bladeTool",
+            "card_final_cut_pro_osx_deleteSelection",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_final_cut_pro_osx_startPausePlayback",
+            "card_final_cut_pro_osx_deleteSelection",
+            "card_final_cut_pro_osx_bladeTool",
+            "card_final_cut_pro_osx_cutClip",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_global_presets_one_of_gesture_button",
+            "card_final_cut_pro_osx_startPausePlayback",
+            "card_final_cut_pro_osx_cutClip",
+            "card_final_cut_pro_osx_deleteSelection",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_final_cut_pro_osx_timelineHorizontalScroll",
+            "card_final_cut_pro_osx_timelinePlayheadNavigation",
+            "card_final_cut_pro_osx_zoom",
+            "card_global_presets_osx_keystroke_2ways"
+          ]
+        }
+      ]
+    },
+    "application_id_tencent_meeting": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_global_presets_middle_button",
+            "card_tencent_meeting_osx_toggle_mic",
+            "card_tencent_meeting_osx_toggle_camera",
+            "card_tencent_meeting_osx_start_screen_sharing",
+            "card_tencent_meeting_osx_start_local_recording",
+            "card_global_presets_osx_screen_capture",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_tencent_meeting_osx_toggle_mic",
+            "card_tencent_meeting_osx_toggle_camera",
+            "card_tencent_meeting_osx_start_screen_sharing",
+            "card_tencent_meeting_osx_start_local_recording",
+            "card_global_presets_osx_screen_capture",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_tencent_meeting_osx_toggle_camera",
+            "card_tencent_meeting_osx_toggle_mic",
+            "card_tencent_meeting_osx_start_screen_sharing",
+            "card_tencent_meeting_osx_start_local_recording",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_tencent_meeting_osx_toggle_mic",
+            "card_tencent_meeting_osx_toggle_camera",
+            "card_tencent_meeting_osx_start_screen_sharing",
+            "card_tencent_meeting_osx_start_cloud_recording",
+            "card_tencent_meeting_osx_start_local_recording",
+            "card_tencent_meeting_osx_activate_meeting_window",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_tencent_meeting_osx_toggle_mic",
+            "card_tencent_meeting_osx_toggle_camera",
+            "card_tencent_meeting_osx_start_screen_sharing",
+            "card_tencent_meeting_osx_start_local_recording",
+            "card_global_presets_osx_screen_capture",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_global_presets_osx_volume_control",
+            "card_global_presets_osx_brightness_up_down",
+            "card_global_presets_osx_keystroke_2ways"
+          ]
+        }
+      ]
+    },
+    "application_id_voov_meeting": {
+      "infoList": [
+        {
+          "id": "mx-master-4-2b042_c82",
+          "infos": [
+            "card_global_presets_middle_button",
+            "card_voov_meeting_osx_toggle_mic",
+            "card_voov_meeting_osx_toggle_camera",
+            "card_voov_meeting_osx_start_screen_sharing",
+            "card_voov_meeting_osx_start_local_recording",
+            "card_global_presets_osx_screen_capture",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c83",
+          "infos": [
+            "card_voov_meeting_osx_toggle_mic",
+            "card_voov_meeting_osx_toggle_camera",
+            "card_voov_meeting_osx_start_screen_sharing",
+            "card_voov_meeting_osx_start_local_recording",
+            "card_global_presets_osx_screen_capture",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c86",
+          "infos": [
+            "card_voov_meeting_osx_toggle_camera",
+            "card_voov_meeting_osx_toggle_mic",
+            "card_voov_meeting_osx_start_screen_sharing",
+            "card_voov_meeting_osx_start_local_recording",
+            "card_global_presets_osx_screen_capture",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c195",
+          "infos": [
+            "card_global_presets_one_of_gesture_button",
+            "card_voov_meeting_osx_toggle_mic",
+            "card_voov_meeting_osx_toggle_camera",
+            "card_voov_meeting_osx_start_screen_sharing",
+            "card_voov_meeting_osx_start_local_recording",
+            "card_global_presets_osx_screen_capture",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c196",
+          "infos": [
+            "card_global_presets_mode_shift",
+            "card_voov_meeting_osx_toggle_mic",
+            "card_voov_meeting_osx_toggle_camera",
+            "card_voov_meeting_osx_start_screen_sharing",
+            "card_voov_meeting_osx_start_local_recording",
+            "card_global_presets_osx_screen_capture",
+            "card_global_presets_keyboard_shortcut",
+            "card_global_presets_show_radial_menu"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "infos": [
+            "card_global_presets_osx_volume_control",
+            "card_global_presets_osx_brightness_up_down",
+            "card_global_presets_osx_keystroke_2ways"
+          ]
+        }
+      ]
+    }
+  }
+}

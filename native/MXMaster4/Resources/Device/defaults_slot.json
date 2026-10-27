@@ -1,0 +1,179 @@
+{
+  "defaults": {
+    "420fd454-0c36-499d-bde4-146823b16147": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_global_presets_osx_horizontal_scroll",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_c416",
+          "cardInfo": "card_global_presets_show_radial_menu",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_haptic_settings",
+          "cardInfo": "9b85425b-8c71-4b15-808c-123300000000",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        },
+        {
+          "id": "mx-master-4-2b042_force_sensing_settings",
+          "cardInfo": "9b85425b-8c71-4b15-808c-123400000000",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    },
+    "application_id_adobe_photoshop": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_photoshop_brushSize",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    },
+    "application_id_adobe_premierepro": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_premiere_pro_osx_timelineHorizontalScroll",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_excel": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_global_presets_osx_horizontal_scroll",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_word": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_word_osx_zoom",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_powerpoint": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_powerpoint_osx_zoom",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    },
+    "application_id_google_chrome": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_global_presets_osx_tab_navigation",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    },
+    "application_id_apple_safari": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_global_presets_osx_tab_navigation",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_teams": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_global_presets_osx_volume_control",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    },
+    "application_id_microsoft_teams_new": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_global_presets_osx_volume_control",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    },
+    "application_id_zoom": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_global_presets_osx_volume_control",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    },
+    "application_id_final_cut_pro": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_final_cut_pro_osx_timelineHorizontalScroll",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    },
+    "application_id_tencent_meeting": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_global_presets_osx_volume_control",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    },
+    "application_id_voov_meeting": {
+      "defaultAssignment": [
+        {
+          "id": "mx-master-4-2b042_thumb_wheel_adapter",
+          "cardInfo": "card_global_presets_osx_volume_control",
+          "tags": [
+            "UI_PAGE_BUTTONS"
+          ]
+        }
+      ]
+    }
+  }
+}
